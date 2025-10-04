@@ -1,5 +1,17 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Введите первое число: ");
+        double a = sc.nextDouble();
+        System.out.print("Введите второе число: ");
+        double b = sc.nextDouble();
+
+        Addition addition = new Addition();
+        double c = addition.addition(a, b);
+
+        System.out.println("Результат операций: ");
+        System.out.println(a + " + " + b + " = " + c);
     }
 }
