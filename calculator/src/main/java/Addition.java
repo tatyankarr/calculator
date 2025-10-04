@@ -1,5 +1,5 @@
 public class Addition {
-    public double addition (double a, double b) {
+    public double add (double a, double b) {
         return a+b;
     }
 }
