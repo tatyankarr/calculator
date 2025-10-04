@@ -17,9 +17,13 @@ public class Main {
         Multiplication multiplication = new Multiplication();
         double e = multiplication.multiply(a,b);
 
+        Division division = new Division();
+        double f = division.divide(a,b);
+
         System.out.println("Результат операций: ");
         System.out.println(a + " + " + b + " = " + c);
         System.out.println(a + " - " + b + " = " + d);
         System.out.println(a + " * " + b + " = " + e);
+        System.out.println(a + " / " + b + " = " + f);
     }
 }
