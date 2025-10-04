@@ -14,8 +14,12 @@ public class Main {
         Substraction substraction = new Substraction();
         double d = substraction.substract(a, b);
 
+        Multiplication multiplication = new Multiplication();
+        double e = multiplication.multiply(a,b);
+
         System.out.println("Результат операций: ");
         System.out.println(a + " + " + b + " = " + c);
         System.out.println(a + " - " + b + " = " + d);
+        System.out.println(a + " * " + b + " = " + e);
     }
 }
