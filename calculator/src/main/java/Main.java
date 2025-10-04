@@ -9,9 +9,13 @@ public class Main {
         double b = sc.nextDouble();
 
         Addition addition = new Addition();
-        double c = addition.addition(a, b);
+        double c = addition.add(a, b);
+
+        Substraction substraction = new Substraction();
+        double d = substraction.substract(a, b);
 
         System.out.println("Результат операций: ");
         System.out.println(a + " + " + b + " = " + c);
+        System.out.println(a + " - " + b + " = " + d);
     }
 }
